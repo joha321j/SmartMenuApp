@@ -1,0 +1,12 @@
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\bin\Debug\SmartMenuApp.exe.config
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\bin\Debug\SmartMenuApp.exe
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\bin\Debug\SmartMenuApp.pdb
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\bin\Debug\FunctionLibrary.dll
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\bin\Debug\SmartMenuLibrary.dll
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\bin\Debug\FunctionLibrary.pdb
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\bin\Debug\SmartMenuLibrary.pdb
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\obj\Debug\SmartMenuApp.csprojAssemblyReference.cache
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\obj\Debug\SmartMenuApp.csproj.CoreCompileInputs.cache
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\obj\Debug\SmartMenuApp.csproj.CopyComplete
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\obj\Debug\SmartMenuApp.exe
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\SmartMenuApp\obj\Debug\SmartMenuApp.pdb

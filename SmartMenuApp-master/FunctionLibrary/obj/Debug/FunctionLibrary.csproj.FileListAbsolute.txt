@@ -1,0 +1,6 @@
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\FunctionLibrary\bin\Debug\FunctionLibrary.dll
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\FunctionLibrary\bin\Debug\FunctionLibrary.pdb
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\FunctionLibrary\obj\Debug\FunctionLibrary.csprojAssemblyReference.cache
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\FunctionLibrary\obj\Debug\FunctionLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\FunctionLibrary\obj\Debug\FunctionLibrary.dll
+C:\Users\Frank Andersen\source\Smartmenu\SmartMenuApp-master\FunctionLibrary\obj\Debug\FunctionLibrary.pdb

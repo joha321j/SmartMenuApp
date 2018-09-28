@@ -1,0 +1,5 @@
+﻿		Smart Menu 
+	Her kan du vælge dit menu punkt
+	menupunkt 1;1
+	menupunkt 2;2
+	menupunkt 3;3
