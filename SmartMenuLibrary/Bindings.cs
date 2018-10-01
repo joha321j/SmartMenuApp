@@ -8,9 +8,9 @@ namespace SmartMenuLibrary
 {
     class Bindings
     {
-        internal static void Call(string v)
+        internal static void Call(string callId)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(callId);
         }
     }
 }

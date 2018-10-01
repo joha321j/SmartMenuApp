@@ -30,6 +30,7 @@ namespace SmartMenuLibrary
                 {
                     string[] tempStringArray = menuList[lineCounter].Split(';');
                     menuList[lineCounter] = tempStringArray[0];
+                    Console.WriteLine(tempStringArray[1]);
                     menuId.Add(tempStringArray[1]);
                 }
                 lineCounter++;
@@ -47,10 +48,11 @@ namespace SmartMenuLibrary
         {
             int userInput = 1;
 
-            //Print the loaded menu
+            
 
             while (userInput != 0)
             {
+                //Print the loaded menu
                 Console.Clear();
                 Console.WriteLine(menuName);
                 Console.WriteLine(menuDescription);
@@ -62,13 +64,18 @@ namespace SmartMenuLibrary
                 Console.WriteLine("Tast linie nummeret for at tilgå den undermenu.");
                 Console.WriteLine("Tast 0 for at afslutte.");
 
-                while (!int.TryParse(Console.ReadLine(), out userInput))
+                
+                //Ensure input is a valid number.
+                while (!int.TryParse(Console.ReadLine(), out userInput) || userInput > menuId.Count)
                 {
-                    Console.WriteLine("Indtast venligst et tal.");
+                    Console.WriteLine("Indtast venligst et gyldigt tal.");
                 }
-
-                Bindings.Call(menuId[userInput - 1]);
-            }
+                if (userInput > 0)
+                {
+                    Bindings.Call(menuId[userInput - 1]);
+                    Console.ReadKey();
+                }
+           }
         }
     }
 }
