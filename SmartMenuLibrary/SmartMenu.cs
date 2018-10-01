@@ -56,7 +56,7 @@ namespace SmartMenuLibrary
                 Console.WriteLine(menuDescription);
                 for (int lineCount = 0; lineCount < menuList.Count; lineCount++)
                 {
-                    Console.WriteLine("{0}. {1}", lineCount + 1, menuList[lineCount]);
+                    Console.WriteLine("  {0}.  {1}", lineCount + 1, menuList[lineCount]);
                 }
 
                 Console.WriteLine("Tast linie nummeret for at tilgå den undermenu.");
@@ -66,6 +66,8 @@ namespace SmartMenuLibrary
                 {
                     Console.WriteLine("Indtast venligst et tal.");
                 }
+
+                Bindings.Call(menuId[userInput - 1]);
             }
         }
     }
