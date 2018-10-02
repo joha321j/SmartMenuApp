@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace SmartMenuLibrary
 {
@@ -19,24 +20,30 @@ namespace SmartMenuLibrary
             int lineCounter = 0;
             string line;
 
-
-            //Create an instance of StreamReader, because it is not a static class.
-            System.IO.StreamReader menuFile = new System.IO.StreamReader(@path);
-
-            while ((line = menuFile.ReadLine()) != null)
+            try
             {
-                menuList.Add(line);
-                if (menuList[lineCounter].Contains(";"))
+                using (StreamReader sr = new StreamReader(path))
                 {
-                    string[] tempStringArray = menuList[lineCounter].Split(';');
-                    menuList[lineCounter] = tempStringArray[0];
-                    Console.WriteLine(tempStringArray[1]);
-                    menuId.Add(tempStringArray[1]);
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        menuList.Add(line);
+                        if (menuList[lineCounter].Contains(";"))
+                        {
+                            string[] tempStringArray = menuList[lineCounter].Split(';');
+                            menuList[lineCounter] = tempStringArray[0];
+                            menuId.Add(tempStringArray[1]);
+                        }
+                        lineCounter++;
+                    }
                 }
-                lineCounter++;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("The file could not be read.");
+                Console.WriteLine(e.Message);
             }
 
-            menuFile.Close();
+
 
             //Moving the first 2 items in menuList to ensure that menuId and menuList should have same dimensions.
             menuName = menuList[0];
